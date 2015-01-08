@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: #f1f1f1; }
+
+.content {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  color: #FFFFFF;
+  text-align: center; }
+  .content .tag {
+    width: 145px;
+    height: 145px;
+    display: inline-block;
+    font-size: 8em;
+    font-family: Arial; }
+    .content .tag:after {
+      content: "";
+      margin-left: -105px;
+      width: 145px;
+      height: 145px;
+      background: #909090;
+      border-radius: 7px;
+      position: absolute;
+      z-index: -1;
+      -webkit-transform: scale(1) rotate(45deg);
+      -moz-transform: scale(1) rotate(45deg);
+      -o-transform: scale(1) rotate(45deg);
+      transform: scale(1) rotate(45deg); }
+
+/*# sourceMappingURL=main.css.map */
