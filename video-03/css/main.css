@@ -1,0 +1,13 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.content {
+  width: 300px;
+  margin: auto; }
+  .content input {
+    width: 100%;
+    border: solid 1px #afafaf;
+    border-radius: 5px;
+    padding: 5px; }
+
+/*# sourceMappingURL=main.css.map */

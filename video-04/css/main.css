@@ -1,0 +1,30 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.over-button:hover, .content ul li:hover, .content .send:hover {
+  background: #344a69; }
+
+.content {
+  width: 660px;
+  margin: auto;
+  color: white; }
+  .content ul {
+    list-style: none;
+    font-size: 0;
+    padding: 0; }
+    .content ul li {
+      display: inline-block;
+      background: #283b56;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 8px; }
+  .content .send {
+    background: #283b56;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 5px;
+    cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

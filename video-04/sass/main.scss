@@ -1,0 +1,46 @@
+$over-button: #344a69;
+$button: #283b56;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.over-button {
+  &:hover {
+    background: $over-button;
+  }
+}
+
+.content {
+  width: 660px;
+  margin: auto;
+  color: white;
+
+  ul {
+    list-style: none;
+    font-size: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      background: $button;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 8px;
+
+      @extend .over-button;
+    }
+  }
+
+  .send {
+    background: $button;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 5px;
+    cursor: pointer;
+
+    @extend .over-button;
+  }
+
+}
